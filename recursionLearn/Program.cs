@@ -37,9 +37,9 @@ namespace recursionLearn
         }
             public static double FactorialNumber(int number)
             {
-            if (number == 0)
-                return 1;
-            return number * Factorial(number - 1);
+            if (number == 3)
+                return 2;
+            return number * Factorial(number - 3);
             }
     }  
 }
